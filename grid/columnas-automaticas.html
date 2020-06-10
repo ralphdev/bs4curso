@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Grid</title>
+
+    <style>
+        .row > div {
+            text-align: center;
+            margin: 10px 0;
+        }
+
+        .uno { background: #f2f2f2; }
+        .dos { background: #dbdbdb; padding: 0 20px;}
+        .tres { background: #f2f2f2; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col uno">
+                <h4>Columna 1</h4>
+            </div>
+            <div class="col dos col-lg-auto">
+                <h4>Columna 2</h4>
+            </div>
+            <div class="col tres">
+                <h4>Columna 3</h4>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
